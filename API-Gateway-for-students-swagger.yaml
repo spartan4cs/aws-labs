@@ -8,7 +8,7 @@ securityDefinitions:
     x-amazon-apigateway-authorizer:
       providerARNs:
       # TODO 1: Replace with your Cognito User Pool ARN (in between the quotes "")
-      - "REPLACE-THIS"
+      - "arn:aws:cognito-idp:us-east-1:879521922436:userpool/us-east-1_3pY7X2b1X"
       type: "cognito_user_pools"
 swagger: "2.0"
 info:
